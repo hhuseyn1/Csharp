@@ -1,0 +1,15 @@
+C:\Users\LEGION\source\repos\Indexer\Indexer\bin\Debug\net6.0\Indexer.exe
+C:\Users\LEGION\source\repos\Indexer\Indexer\bin\Debug\net6.0\Indexer.deps.json
+C:\Users\LEGION\source\repos\Indexer\Indexer\bin\Debug\net6.0\Indexer.runtimeconfig.json
+C:\Users\LEGION\source\repos\Indexer\Indexer\bin\Debug\net6.0\Indexer.dll
+C:\Users\LEGION\source\repos\Indexer\Indexer\bin\Debug\net6.0\Indexer.pdb
+C:\Users\LEGION\source\repos\Indexer\Indexer\obj\Debug\net6.0\Indexer.csproj.AssemblyReference.cache
+C:\Users\LEGION\source\repos\Indexer\Indexer\obj\Debug\net6.0\Indexer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LEGION\source\repos\Indexer\Indexer\obj\Debug\net6.0\Indexer.AssemblyInfoInputs.cache
+C:\Users\LEGION\source\repos\Indexer\Indexer\obj\Debug\net6.0\Indexer.AssemblyInfo.cs
+C:\Users\LEGION\source\repos\Indexer\Indexer\obj\Debug\net6.0\Indexer.csproj.CoreCompileInputs.cache
+C:\Users\LEGION\source\repos\Indexer\Indexer\obj\Debug\net6.0\Indexer.dll
+C:\Users\LEGION\source\repos\Indexer\Indexer\obj\Debug\net6.0\refint\Indexer.dll
+C:\Users\LEGION\source\repos\Indexer\Indexer\obj\Debug\net6.0\Indexer.pdb
+C:\Users\LEGION\source\repos\Indexer\Indexer\obj\Debug\net6.0\Indexer.genruntimeconfig.cache
+C:\Users\LEGION\source\repos\Indexer\Indexer\obj\Debug\net6.0\ref\Indexer.dll
