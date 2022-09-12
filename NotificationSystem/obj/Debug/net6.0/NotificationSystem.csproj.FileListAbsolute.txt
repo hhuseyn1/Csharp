@@ -1,0 +1,15 @@
+C:\Users\LEGION\source\repos\NotificationSystem\NotificationSystem\bin\Debug\net6.0\NotificationSystem.exe
+C:\Users\LEGION\source\repos\NotificationSystem\NotificationSystem\bin\Debug\net6.0\NotificationSystem.deps.json
+C:\Users\LEGION\source\repos\NotificationSystem\NotificationSystem\bin\Debug\net6.0\NotificationSystem.runtimeconfig.json
+C:\Users\LEGION\source\repos\NotificationSystem\NotificationSystem\bin\Debug\net6.0\NotificationSystem.dll
+C:\Users\LEGION\source\repos\NotificationSystem\NotificationSystem\bin\Debug\net6.0\NotificationSystem.pdb
+C:\Users\LEGION\source\repos\NotificationSystem\NotificationSystem\obj\Debug\net6.0\NotificationSystem.csproj.AssemblyReference.cache
+C:\Users\LEGION\source\repos\NotificationSystem\NotificationSystem\obj\Debug\net6.0\NotificationSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LEGION\source\repos\NotificationSystem\NotificationSystem\obj\Debug\net6.0\NotificationSystem.AssemblyInfoInputs.cache
+C:\Users\LEGION\source\repos\NotificationSystem\NotificationSystem\obj\Debug\net6.0\NotificationSystem.AssemblyInfo.cs
+C:\Users\LEGION\source\repos\NotificationSystem\NotificationSystem\obj\Debug\net6.0\NotificationSystem.csproj.CoreCompileInputs.cache
+C:\Users\LEGION\source\repos\NotificationSystem\NotificationSystem\obj\Debug\net6.0\NotificationSystem.dll
+C:\Users\LEGION\source\repos\NotificationSystem\NotificationSystem\obj\Debug\net6.0\refint\NotificationSystem.dll
+C:\Users\LEGION\source\repos\NotificationSystem\NotificationSystem\obj\Debug\net6.0\NotificationSystem.pdb
+C:\Users\LEGION\source\repos\NotificationSystem\NotificationSystem\obj\Debug\net6.0\NotificationSystem.genruntimeconfig.cache
+C:\Users\LEGION\source\repos\NotificationSystem\NotificationSystem\obj\Debug\net6.0\ref\NotificationSystem.dll
