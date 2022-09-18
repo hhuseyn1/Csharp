@@ -1,0 +1,15 @@
+C:\Users\LEGION\source\repos\Serializations\Serializations\bin\Debug\net6.0\Serializations.exe
+C:\Users\LEGION\source\repos\Serializations\Serializations\bin\Debug\net6.0\Serializations.deps.json
+C:\Users\LEGION\source\repos\Serializations\Serializations\bin\Debug\net6.0\Serializations.runtimeconfig.json
+C:\Users\LEGION\source\repos\Serializations\Serializations\bin\Debug\net6.0\Serializations.dll
+C:\Users\LEGION\source\repos\Serializations\Serializations\bin\Debug\net6.0\Serializations.pdb
+C:\Users\LEGION\source\repos\Serializations\Serializations\obj\Debug\net6.0\Serializations.csproj.AssemblyReference.cache
+C:\Users\LEGION\source\repos\Serializations\Serializations\obj\Debug\net6.0\Serializations.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LEGION\source\repos\Serializations\Serializations\obj\Debug\net6.0\Serializations.AssemblyInfoInputs.cache
+C:\Users\LEGION\source\repos\Serializations\Serializations\obj\Debug\net6.0\Serializations.AssemblyInfo.cs
+C:\Users\LEGION\source\repos\Serializations\Serializations\obj\Debug\net6.0\Serializations.csproj.CoreCompileInputs.cache
+C:\Users\LEGION\source\repos\Serializations\Serializations\obj\Debug\net6.0\Serializations.dll
+C:\Users\LEGION\source\repos\Serializations\Serializations\obj\Debug\net6.0\refint\Serializations.dll
+C:\Users\LEGION\source\repos\Serializations\Serializations\obj\Debug\net6.0\Serializations.pdb
+C:\Users\LEGION\source\repos\Serializations\Serializations\obj\Debug\net6.0\Serializations.genruntimeconfig.cache
+C:\Users\LEGION\source\repos\Serializations\Serializations\obj\Debug\net6.0\ref\Serializations.dll
