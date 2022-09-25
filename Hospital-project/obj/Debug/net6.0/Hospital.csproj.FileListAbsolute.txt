@@ -1,0 +1,17 @@
+C:\Users\LEGION\source\repos\Hospital\Hospital\bin\Debug\net6.0\Hospital.exe
+C:\Users\LEGION\source\repos\Hospital\Hospital\bin\Debug\net6.0\Hospital.deps.json
+C:\Users\LEGION\source\repos\Hospital\Hospital\bin\Debug\net6.0\Hospital.runtimeconfig.json
+C:\Users\LEGION\source\repos\Hospital\Hospital\bin\Debug\net6.0\Hospital.dll
+C:\Users\LEGION\source\repos\Hospital\Hospital\bin\Debug\net6.0\Hospital.pdb
+C:\Users\LEGION\source\repos\Hospital\Hospital\obj\Debug\net6.0\Hospital.csproj.AssemblyReference.cache
+C:\Users\LEGION\source\repos\Hospital\Hospital\obj\Debug\net6.0\Hospital.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LEGION\source\repos\Hospital\Hospital\obj\Debug\net6.0\Hospital.AssemblyInfoInputs.cache
+C:\Users\LEGION\source\repos\Hospital\Hospital\obj\Debug\net6.0\Hospital.AssemblyInfo.cs
+C:\Users\LEGION\source\repos\Hospital\Hospital\obj\Debug\net6.0\Hospital.csproj.CoreCompileInputs.cache
+C:\Users\LEGION\source\repos\Hospital\Hospital\obj\Debug\net6.0\Hospital.dll
+C:\Users\LEGION\source\repos\Hospital\Hospital\obj\Debug\net6.0\refint\Hospital.dll
+C:\Users\LEGION\source\repos\Hospital\Hospital\obj\Debug\net6.0\Hospital.pdb
+C:\Users\LEGION\source\repos\Hospital\Hospital\obj\Debug\net6.0\Hospital.genruntimeconfig.cache
+C:\Users\LEGION\source\repos\Hospital\Hospital\obj\Debug\net6.0\ref\Hospital.dll
+C:\Users\LEGION\source\repos\Hospital\Hospital\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\LEGION\source\repos\Hospital\Hospital\obj\Debug\net6.0\Hospital.csproj.CopyComplete
