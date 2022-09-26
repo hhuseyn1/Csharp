@@ -11,6 +11,7 @@ using System.Runtime.ConstrainedExecution;
 using System.Text;
 using System.Xml;
 using Newtonsoft.Json;
+using System.Linq.Expressions;
 #endregion
 #nullable disable
 class Program
@@ -206,14 +207,28 @@ class Program
         Console.WriteLine("Enter name: ");
         name = Console.ReadLine();
         #region NameCheck
-        if (name.Length <= 2)
-            throw new ArgumentOutOfRangeException("Invalid name");
-        #endregion
-        Console.WriteLine("Enter surname: ");
+        try
+        {
+            if (name.Length <= 2)
+                throw new ArgumentOutOfRangeException("Invalid name");
+        }
+        catch(Exception ex)
+        {
+            Console.WriteLine(ex.Message);
+        }
+
+#endregion
+Console.WriteLine("Enter surname: ");
         surname = Console.ReadLine();
         #region SurnameCheck
+        try {
         if (surname.Length <= 2)
             throw new ArgumentOutOfRangeException("Invalid surname");
+        }
+        catch(Exception ex)
+        {
+            Console.WriteLine(ex.Message);
+        }
         #endregion
         Console.WriteLine("Enter age: ");
         age = Convert.ToInt16(Console.ReadLine());
@@ -221,6 +236,7 @@ class Program
         phone = Console.ReadLine();
         #region PhoneCheck
         string[] checkPhone = phone.Split(' ');
+        try { 
         if (phone?.Length < 9 || phone?.Length > 20)
             throw new ArgumentOutOfRangeException("Invalid phone number length");
 
@@ -236,18 +252,30 @@ class Program
             if (phone[3].ToString() == "0")
                 throw new ArgumentException("Invalid phone number");
         }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine(ex.Message);
+        }
         #endregion
         Console.WriteLine("Enter bloodgroup: ");
         bloodgroup = Console.ReadLine();
-        #region BloodCheck
+            #region BloodCheck
+        
 
-
+        try
+        {
         foreach (var bgcheck in bloodgroups)
         {
             if (bloodgroups.Contains(bgcheck))
                 break;
             else
                 throw new ArgumentOutOfRangeException("Invalid blood group");
+        }
+        }
+        catch(Exception ex)
+        {
+            Console.WriteLine(ex.Message);
         }
 
 
@@ -337,50 +365,92 @@ class Program
                         }
                         Console.WriteLine("Enter doctor id: ");
                         int chooseDoc = Convert.ToInt32(Console.ReadLine());
-                        if (choiceNumber == 1 && (chooseDoc < 1 || chooseDoc > 3))
-                            throw new ArgumentOutOfRangeException("Invalid Doctor id");
-                        else if (choiceNumber == 2 && (chooseDoc < 4 || chooseDoc > 6))
-                            throw new ArgumentOutOfRangeException("Invalid Doctor id");
-                        else if (choiceNumber == 3 && (chooseDoc < 7 || chooseDoc > 9))
-                            throw new ArgumentOutOfRangeException("Invalid Doctor id");
-
-                        short day, year, month, hour, minute, second = 00;
+                        try
+                        {
+                            if (choiceNumber == 1 && (chooseDoc < 1 || chooseDoc > 3))
+                                throw new ArgumentOutOfRangeException("Invalid Doctor id");
+                            else if (choiceNumber == 2 && (chooseDoc < 4 || chooseDoc > 6))
+                                throw new ArgumentOutOfRangeException("Invalid Doctor id");
+                            else if (choiceNumber == 3 && (chooseDoc < 7 || chooseDoc > 9))
+                                throw new ArgumentOutOfRangeException("Invalid Doctor id");
+                        }
+                    catch (Exception ex)
+                    {
+                        Console.WriteLine(ex.Message);
+                    }
+                    short day, year, month, hour, minute, second = 00;
                         Console.Clear();
                         Console.WriteLine("Enter admition date");
                         Console.WriteLine("Year: ");
                         year = Convert.ToInt16(Console.ReadLine());
-                        if (year < DateTime.Now.Year || year > (DateTime.Now.Year) + 1)
-                            throw new ArgumentOutOfRangeException("Invalid wait time");
-                        Console.WriteLine("Month: ");
-                        month = Convert.ToInt16(Console.ReadLine());
-                        if (year == ((DateTime.Now.Year) + 1))
+                        try
                         {
-                            if (month < 1 || month > 12)
+                            if (year < DateTime.Now.Year || year > (DateTime.Now.Year) + 1)
                                 throw new ArgumentOutOfRangeException("Invalid wait time");
                         }
-                        else if (year == DateTime.Now.Year)
+                        catch (Exception ex)
                         {
-                            if (month < DateTime.Now.Month || month > 12)
-                                throw new ArgumentOutOfRangeException("Invalid wait time");
+                            Console.WriteLine(ex.Message);
+                        }
+                        Console.WriteLine("Month: ");
+                        month = Convert.ToInt16(Console.ReadLine());
+                        try
+                        {
+                            if (year == ((DateTime.Now.Year) + 1))
+                            {
+                                if (month < 1 || month > 12)
+                                    throw new ArgumentOutOfRangeException("Invalid wait time");
+                            }
+
+
+                            else if (year == DateTime.Now.Year)
+                            {
+                                if (month < DateTime.Now.Month || month > 12)
+                                    throw new ArgumentOutOfRangeException("Invalid wait time");
+                            }
+                        }
+                        catch (Exception ex)
+                        {
+                            Console.WriteLine(ex.Message);
                         }
                         Console.WriteLine("Day: ");
                         day = Convert.ToInt16(Console.ReadLine());
-                        if (year == DateTime.Now.Year && month == DateTime.Now.Month)
+                        try
                         {
-                            if (day < DateTime.Now.Day || day > 31)
+                            if (year == DateTime.Now.Year && month == DateTime.Now.Month)
+                            {
+                                if (day < DateTime.Now.Day || day > 31)
+                                    throw new ArgumentOutOfRangeException("Invalid wait time");
+                            }
+                            if (day < 1 || day > 31)
                                 throw new ArgumentOutOfRangeException("Invalid wait time");
                         }
-                        if (day < 1 || day > 31)
-                            throw new ArgumentOutOfRangeException("Invalid wait time");
+                        catch (Exception ex)
+                        {
+                            Console.WriteLine(ex.Message);
+                        }
                         Console.WriteLine("Hour: ");
                         hour = Convert.ToInt16(Console.ReadLine());
-                        if (hour < 8 || hour > 18)
-                            throw new ArgumentOutOfRangeException("Invalid wait time");
+                        try
+                        {
+                            if (hour < 8 || hour > 18)
+                                throw new ArgumentOutOfRangeException("Invalid wait time");
+                        }
+                        catch (Exception ex)
+                        {
+                            Console.WriteLine(ex.Message);
+                        }
                         Console.WriteLine("Minute: ");
                         minute = Convert.ToInt16(Console.ReadLine());
-                        if (minute < 0 || minute > 59)
-                            throw new ArgumentOutOfRangeException("Invalid wait time");
-
+                        try
+                        {
+                            if (minute < 0 || minute > 59)
+                                throw new ArgumentOutOfRangeException("Invalid wait time");
+                        }
+                        catch (Exception ex)
+                        {
+                            Console.WriteLine(ex.Message);
+                        }
                         isRunning = false;
                     }
                     break;
